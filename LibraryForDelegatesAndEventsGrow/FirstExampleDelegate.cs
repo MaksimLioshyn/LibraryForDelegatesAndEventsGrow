@@ -4,9 +4,6 @@ namespace LibraryForDelegatesAndEventsGrow
 {
     public class FirstExampleDelegate
     {
-        public void Method()
-        {
-            Console.WriteLine("First delegate.");
-        }
+        public void Method() => Console.WriteLine("First delegate.");
     }
 }

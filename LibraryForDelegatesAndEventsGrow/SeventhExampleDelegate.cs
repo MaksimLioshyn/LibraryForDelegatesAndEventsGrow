@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace LibraryForDelegatesAndEventsGrow
 {
-    public class SecondExampleDelegate
+    public class SeventhExampleDelegate
     {
-        public string Method(string name) => "Hello " + name;
+        public string Method1() => "Hello ";
+        public string Method2() => "world!";
     }
 }

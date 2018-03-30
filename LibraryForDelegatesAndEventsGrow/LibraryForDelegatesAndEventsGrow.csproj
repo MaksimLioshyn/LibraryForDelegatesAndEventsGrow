@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="FirdExampleDelegate.cs" />
     <Compile Include="FirstExampleDelegate.cs" />
+    <Compile Include="SeventhExampleDelegate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecondExampleDelegate.cs" />
   </ItemGroup>

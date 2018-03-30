@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{359FDB52-B10F-4C7D-9067-8F916F187647}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleForLibrarry</RootNamespace>
-    <AssemblyName>ConsoleForLibrarry</AssemblyName>
+    <RootNamespace>ConsoleForLibrarryDelegates</RootNamespace>
+    <AssemblyName>ConsoleForLibrarryDelegates</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,17 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Delegates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LibraryForDelegatesAndEventsGrow\LibraryForDelegatesAndEventsGrow.csproj">
-      <Project>{889EBF96-F101-4DFC-8128-50215AD75933}</Project>
-      <Name>LibraryForDelegatesAndEventsGrow</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
