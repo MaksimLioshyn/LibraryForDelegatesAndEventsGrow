@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleForLibrarryDelegates
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleForLibrarryEvents", "ConsoleForLibrarryEvents\ConsoleForLibrarryEvents.csproj", "{03170FD0-0B7B-4444-B495-DE4C7F9C4160}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsEvents", "WindowsFormsEvents\WindowsFormsEvents.csproj", "{2D18EDB2-1364-4856-8F32-0EDE4B42AA0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{03170FD0-0B7B-4444-B495-DE4C7F9C4160}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03170FD0-0B7B-4444-B495-DE4C7F9C4160}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03170FD0-0B7B-4444-B495-DE4C7F9C4160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D18EDB2-1364-4856-8F32-0EDE4B42AA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D18EDB2-1364-4856-8F32-0EDE4B42AA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D18EDB2-1364-4856-8F32-0EDE4B42AA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D18EDB2-1364-4856-8F32-0EDE4B42AA0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
