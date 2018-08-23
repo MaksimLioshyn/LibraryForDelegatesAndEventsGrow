@@ -1,7 +1,6 @@
 ﻿using ClassLibraryDelegatesForL2;
 using NUnit.Framework;
 
-
 namespace ClassLibraryDelegatesForL2Tests
 {
     [TestFixture()]
@@ -9,7 +8,7 @@ namespace ClassLibraryDelegatesForL2Tests
     {
         public int FibonachiiFunction(int x1, int x2) => x1 + x2;
 
-        ClassForTask.Fibonacii _f = null;
+        private ClassForTask.Fibonachii _f;
         [TestCase(0, ExpectedResult = 2)]
         [TestCase(1, ExpectedResult = 3)]
         [TestCase(2, ExpectedResult = 5)]
