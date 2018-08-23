@@ -1,0 +1,23 @@
+﻿@model dynamic
+<script type="text/javascript">
+    function showImage(){
+        var x = document.getElementById("loadingImage");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+</script>
+@{
+    ViewBag.Title = "Task 2 for delegates";
+    Layout = "_Layout";
+}
+
+<h2>Task 2 for delegates</h2>
+<a asp-area="" asp-controller="Home" asp-action="IncreaseImage" class="btn btn-primary">increase</a>
+<a asp-area="" asp-controller="Home" asp-action="DecreaseImage" class="btn btn-primary">decrease</a>
+<a asp-area="" asp-controller="Home" asp-action="ShowImage" class="btn btn-primary">show</a>
+<button class="btn btn-primary" onclick="showImage()">Show/hide image</button>
+<img src="~/images/banner1.svg" alt="" id="loadingImage"/>

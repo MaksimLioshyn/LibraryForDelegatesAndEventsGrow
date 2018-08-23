@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using WebApplicationForL2.Models;
 
@@ -38,6 +34,31 @@ namespace WebApplicationForL2.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult Task2Delagates()
+        {
+            return View();
+        }
+
+        public IActionResult IncreaseImage()
+        {
+            return RedirectToAction("Task2Delagates");
+        }
+
+        public IActionResult DecreaseImage()
+        {
+            return RedirectToAction("Task2Delagates");
+        }
+
+        public IActionResult ShowImage()
+        {
+            return RedirectToAction("Task2Delagates");
+        }
+
+        public IActionResult ShowImage(string id)
+        {
+            return RedirectToAction("Task2Delagates");
         }
     }
 }
