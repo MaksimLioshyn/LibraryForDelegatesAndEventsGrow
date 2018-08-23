@@ -8,8 +8,9 @@
         Title="MainWindow" Height="450" Width="491.213">
     <Grid Margin="0,0,36,0">
         <Image x:Name="ImageTest" HorizontalAlignment="Left" Height="329" Margin="10,10,0,0" VerticalAlignment="Top" Width="336" Source="revolutionary-picture-of-a-yellow-duck-by-ducktopiavw-on-deviantart.png"/>
-        <Button Content="Show / hide" HorizontalAlignment="Left" Margin="10,389,0,0" VerticalAlignment="Top" Width="75" Click="showHideBtn_Click"/>
-        <Button Content="Increase" HorizontalAlignment="Left" Margin="271,389,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="showHideBtn" Content="Show / hide" HorizontalAlignment="Left" Margin="10,389,0,0" VerticalAlignment="Top" Width="75" Click="showHideBtn_Click"/>
+        <Button x:Name="increaseBtn" Content="Increase" HorizontalAlignment="Left" Margin="271,389,0,0" VerticalAlignment="Top" Width="75" Click="increaseBtn_Click"/>
+        <Button x:Name="decreaseBtn" Content="Decrease" HorizontalAlignment="Left" Margin="186,389,0,0" VerticalAlignment="Top" Width="75" Click="DecreaseBtn_OnClickcreaseBtn_Click"/>
 
     </Grid>
 </Window>
