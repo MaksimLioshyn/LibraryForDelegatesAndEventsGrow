@@ -8,19 +8,19 @@ namespace ClassLibraryDelegatesForL2Tests
     {
         public int FibonachiiFunction(int x1, int x2) => x1 + x2;
 
-        private ClassForTask.Fibonachii _f;
+        private TaskDelegates.Fibonachii _f;
         [TestCase(0, ExpectedResult = 2)]
         [TestCase(1, ExpectedResult = 3)]
         [TestCase(2, ExpectedResult = 5)]
         public int ShowFibonachiiTest(int circle)
         {
             _f += FibonachiiFunction;
-            ClassForTask classForTask = new ClassForTask();
+            TaskDelegates taskDelegates = new TaskDelegates();
             for (int i = 0; i < circle; i++)
             {
-                classForTask.NextFicNumb(_f);
+                taskDelegates.NextFicNumb(_f);
             }
-            return classForTask.NextFicNumb(_f);
+            return taskDelegates.NextFicNumb(_f);
         }
     }
 }

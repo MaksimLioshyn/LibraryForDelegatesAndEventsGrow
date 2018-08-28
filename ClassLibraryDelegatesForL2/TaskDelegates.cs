@@ -1,6 +1,6 @@
 ﻿namespace ClassLibraryDelegatesForL2
 {
-    public class ClassForTask
+    public class TaskDelegates
     {
         private int _x1 = 1;
         private int _x2 = 1;

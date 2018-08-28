@@ -42,8 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DelegatesAuxiliaryClass.cs" />
     <Compile Include="Delegates.cs" />
+    <Compile Include="IDelegate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticDelegatesAuxiliaryClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
