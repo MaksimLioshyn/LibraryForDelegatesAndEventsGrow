@@ -5,15 +5,23 @@
         public delegate void MaterialHandler(string message);
         public event MaterialHandler Removed;
         public event MaterialHandler Added;
-        
-        protected virtual void OnRemoved(string title)
+        public string Article { get; set; }
+
+        public Material(string article)
         {
-            Removed?.Invoke(title);
+            Article = article;
         }
 
-        protected virtual void OnAdded(string article)
+        protected virtual void OnRemoved()
         {
-            Added?.Invoke(article);
+            Removed?.Invoke($"Remove article {Article}");
         }
+
+        protected virtual void OnAdded()
+        {
+            Added?.Invoke($"Add article {Article}");
+        }
+        
+        public string Message(string message) => $"{message} {Article}";
     }
 }

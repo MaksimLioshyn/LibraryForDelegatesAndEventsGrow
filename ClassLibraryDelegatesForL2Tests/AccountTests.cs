@@ -13,7 +13,7 @@ namespace ClassLibraryDelegatesForL2Tests
         public string OnAddedTest(int sum)
         {
             User user = new User();
-            user.Account.Added += Show_Message;
+            user.Account.Added += ShowMessage;
             user.Account.OnAdded(sum);
             return user.Account.Message;
         }
@@ -25,14 +25,19 @@ namespace ClassLibraryDelegatesForL2Tests
         public string WithdrawTest(int sum)
         {
             User user = new User { Account = { Sum = 200 } };
-            user.Account.Withdrawn += Show_Message;
+            user.Account.Withdrawn += ShowMessage;
             user.Account.Withdraw(sum);
             return user.Account.Message;
         }
 
-        private static string Show_Message(string message)
+        private static string ShowMessage(string message)
         {
             return message;
+        }
+
+        private string CombineMessage(User user)
+        {
+            return ShowMessage($"The account has arrived {user.Account.Sum}");
         }
     }
 }
