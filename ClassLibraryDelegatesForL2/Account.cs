@@ -15,6 +15,10 @@
             Message = Added?.Invoke($"The account has arrived {sum}");
         }
 
+        public void OnAdded()
+        {
+            Message = Added?.Invoke($"The account has arrived {Sum}");
+        }
         public void Withdraw(int sum)
         {
             if (sum <= Sum)
@@ -27,6 +31,12 @@
                 Message = Withdrawn?.Invoke("There is not enough money on the account");
             }
         }
-        
+
+        public int Add(int sum)
+        {
+            Sum += sum;
+            return Sum;
+        }
+
     }
 }
