@@ -6,13 +6,8 @@
         public event AccountStateHandler Withdrawn;
         public event AccountStateHandler Added;
 
-        public int Sum { get; private set; }
+        public int Sum { get; set; }
         public string Message { get; private set; }
-
-        public Account(int sum)
-        {
-            Sum = sum;
-        }
 
         public void OnAdded(int sum)
         {
