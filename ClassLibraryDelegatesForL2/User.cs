@@ -2,7 +2,7 @@
 
 namespace ClassLibraryDelegatesForL2
 {
-    public class User
+    public abstract class User
     {
         public Guid Id { get; }
         public string FirstName;
@@ -10,7 +10,7 @@ namespace ClassLibraryDelegatesForL2
         public DateTime DateOfBirth;
         public Account Account;
 
-        public User()
+        protected User()
         {
             Id = Guid.NewGuid();
             Account = new Account();

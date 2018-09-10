@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace ClassLibraryDelegatesForL2Tests
 {
     [TestFixture()]
-    public class MaterialTests
+    public class MaterialStudentTests
     {
         public delegate void Deleg();
         public event Deleg MyEvent;
@@ -12,11 +12,11 @@ namespace ClassLibraryDelegatesForL2Tests
         [Test()]
         public void MaterialTest()
         {
-            User[] users = new User[]
+            Student[] users = new Student[]
             {
-                new User { Account = { Sum = 50 } },
-                new User { Account = { Sum = 150 } },
-                new User { Account = { Sum = 250 } }
+                new Student { Account = { Sum = 50 } },
+                new Student { Account = { Sum = 150 } },
+                new Student { Account = { Sum = 250 } }
             };
 
             string[] strings = new string[3];
@@ -29,7 +29,7 @@ namespace ClassLibraryDelegatesForL2Tests
             //user.Account.Added += material3.Message;
 
             Deleg deleg = null;
-            foreach (User user in users)
+            foreach (Student user in users)
             {
                 user.Account.Added += message => $"The account has arrived {user.Account.Sum}";
                 deleg += user.Account.OnAdded;

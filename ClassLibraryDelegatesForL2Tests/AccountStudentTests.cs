@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace ClassLibraryDelegatesForL2Tests
 {
     [TestFixture()]
-    public class AccountTests
+    public class AccountStudentTests
     {
 
         [TestCase(150, ExpectedResult = "The account has arrived 150")]
@@ -12,7 +12,7 @@ namespace ClassLibraryDelegatesForL2Tests
         [TestCase(350, ExpectedResult = "The account has arrived 350")]
         public string OnAddedTest(int sum)
         {
-            User user = new User();
+            User user = new Student();
             user.Account.Added += ShowMessage;
             user.Account.OnAdded(sum);
             return user.Account.Message;
@@ -24,7 +24,7 @@ namespace ClassLibraryDelegatesForL2Tests
         [TestCase(350, ExpectedResult = "There is not enough money on the account")]
         public string WithdrawTest(int sum)
         {
-            User user = new User { Account = { Sum = 200 } };
+            User user = new Student { Account = { Sum = 200 } };
             user.Account.Withdrawn += ShowMessage;
             user.Account.Withdraw(sum);
             return user.Account.Message;

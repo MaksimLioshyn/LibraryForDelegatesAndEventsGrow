@@ -1,13 +1,13 @@
 ﻿namespace ClassLibraryDelegatesForL2
 {
-    public class Material
+    public abstract class Material
     {
         public delegate void MaterialHandler(string message);
         public event MaterialHandler Removed;
         public event MaterialHandler Added;
         public string Article { get; set; }
 
-        public Material(string article)
+        protected Material(string article)
         {
             Article = article;
         }
