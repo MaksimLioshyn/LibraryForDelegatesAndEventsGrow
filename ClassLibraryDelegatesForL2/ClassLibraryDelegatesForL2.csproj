@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Concrete\Account.cs" />
+    <Compile Include="Entities\Account.cs" />
+    <Compile Include="Entities\Course.cs" />
     <Compile Include="Interfaces\ITaskDelegates.cs" />
     <Compile Include="Abstracts\Material.cs" />
-    <Compile Include="Concrete\Student.cs" />
-    <Compile Include="Concrete\StudentMaterial.cs" />
+    <Compile Include="Entities\Student.cs" />
+    <Compile Include="Entities\StudentMaterial.cs" />
     <Compile Include="Implementation\TaskDelegates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -55,8 +56,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Concrete\Teacher.cs" />
-    <Compile Include="Concrete\TeacherMaterial.cs" />
+    <Compile Include="Entities\Teacher.cs" />
+    <Compile Include="Entities\TeacherMaterial.cs" />
     <Compile Include="Abstracts\User.cs" />
   </ItemGroup>
   <ItemGroup>

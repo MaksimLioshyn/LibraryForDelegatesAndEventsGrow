@@ -1,19 +1,20 @@
 ﻿using System;
+using ClassLibraryDelegatesForL2.Entities;
 
 namespace ClassLibraryDelegatesForL2.Abstracts
 {
     public abstract class User
     {
-        public Guid Id { get; }
-        public string FirstName;
-        public string LastName;
-        public DateTime DateOfBirth;
-        public Account Account;
+        public Guid Id { get; } = Guid.NewGuid();
+        public string FirstName { get; }
+        public string LastName { get; }
+        public DateTime DateOfBirth { get; set; } = new DateTime();
+        public Account Account { get; set; } = new Account();
 
-        protected User()
+        protected User(string firstName, string lastName)
         {
-            Id = Guid.NewGuid();
-            Account = new Account();
+            FirstName = firstName;
+            LastName = lastName;
         }
     }
 }

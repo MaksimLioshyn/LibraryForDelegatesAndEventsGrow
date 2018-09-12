@@ -1,4 +1,4 @@
-﻿namespace ClassLibraryDelegatesForL2.Concrete
+﻿namespace ClassLibraryDelegatesForL2.Entities
 {
     public class Account
     {

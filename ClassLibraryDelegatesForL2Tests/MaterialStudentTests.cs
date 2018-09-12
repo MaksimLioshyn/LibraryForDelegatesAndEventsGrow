@@ -1,4 +1,4 @@
-﻿using ClassLibraryDelegatesForL2.Concrete;
+﻿using ClassLibraryDelegatesForL2.Entities;
 using NUnit.Framework;
 
 namespace ClassLibraryDelegatesForL2Tests
@@ -7,16 +7,15 @@ namespace ClassLibraryDelegatesForL2Tests
     public class MaterialStudentTests
     {
         public delegate void Deleg();
-        public event Deleg MyEvent;
 
         [Test()]
         public void MaterialTest()
         {
             Student[] users = new Student[]
             {
-                new Student { Account = { Sum = 50 } },
-                new Student { Account = { Sum = 150 } },
-                new Student { Account = { Sum = 250 } }
+                new Student("FirstName", "LastName") { Account = { Sum = 50 } },
+                new Student("FirstName", "LastName") { Account = { Sum = 150 } },
+                new Student("FirstName", "LastName") { Account = { Sum = 250 } }
             };
 
             string[] strings = new string[3];
@@ -34,8 +33,8 @@ namespace ClassLibraryDelegatesForL2Tests
                 user.Account.Added += message => $"The account has arrived {user.Account.Sum}";
                 deleg += user.Account.OnAdded;
             }
-           
-            deleg.Invoke();
+
+            deleg?.Invoke();
             for (int i = 0; i < users.Length; i++)
             {
                 strings[i] = users[i].Account.Message;
