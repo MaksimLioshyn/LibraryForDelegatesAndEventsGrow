@@ -13,9 +13,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryDelegatesForL2"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryDelegatesForL2Tests", "ClassLibraryDelegatesForL2Tests\ClassLibraryDelegatesForL2Tests.csproj", "{05C93BDB-A0E5-4C4D-B6B7-F6FC11D96F2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationForL2", "WebApplicationForL2\WebApplicationForL2.csproj", "{25A44865-1A79-4EA0-A757-DBD29569BC52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationForL2", "WebApplicationForL2\WebApplicationForL2.csproj", "{25A44865-1A79-4EA0-A757-DBD29569BC52}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{D1C56E86-DF46-407E-902F-8240A74D06DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppDelegatesForL2", "ConsoleAppDelegatesForL2\ConsoleAppDelegatesForL2.csproj", "{EC70CD5C-6634-4E3A-B890-6FCA2DC347C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppD2", "WindowsFormsAppD2\WindowsFormsAppD2.csproj", "{2ABE36A6-1121-4201-A3C2-455A8031B692}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{D1C56E86-DF46-407E-902F-8240A74D06DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1C56E86-DF46-407E-902F-8240A74D06DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1C56E86-DF46-407E-902F-8240A74D06DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC70CD5C-6634-4E3A-B890-6FCA2DC347C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC70CD5C-6634-4E3A-B890-6FCA2DC347C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC70CD5C-6634-4E3A-B890-6FCA2DC347C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC70CD5C-6634-4E3A-B890-6FCA2DC347C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ABE36A6-1121-4201-A3C2-455A8031B692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABE36A6-1121-4201-A3C2-455A8031B692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABE36A6-1121-4201-A3C2-455A8031B692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABE36A6-1121-4201-A3C2-455A8031B692}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
