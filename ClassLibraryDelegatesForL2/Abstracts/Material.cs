@@ -1,4 +1,4 @@
-﻿namespace ClassLibraryDelegatesForL2
+﻿namespace ClassLibraryDelegatesForL2.Abstracts
 {
     public abstract class Material
     {

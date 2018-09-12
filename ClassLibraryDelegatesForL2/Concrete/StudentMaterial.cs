@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ClassLibraryDelegatesForL2.Abstracts;
 
-namespace ClassLibraryDelegatesForL2
+namespace ClassLibraryDelegatesForL2.Concrete
 {
     public class StudentMaterial: Material
     {

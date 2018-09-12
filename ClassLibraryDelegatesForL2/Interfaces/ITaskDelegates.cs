@@ -1,4 +1,6 @@
-﻿namespace ClassLibraryDelegatesForL2
+﻿using ClassLibraryDelegatesForL2.Implementation;
+
+namespace ClassLibraryDelegatesForL2.Interfaces
 {
     public interface ITaskDelegates
     {

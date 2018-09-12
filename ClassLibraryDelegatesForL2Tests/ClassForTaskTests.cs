@@ -1,4 +1,4 @@
-﻿using ClassLibraryDelegatesForL2;
+﻿using ClassLibraryDelegatesForL2.Implementation;
 using NUnit.Framework;
 
 namespace ClassLibraryDelegatesForL2Tests
