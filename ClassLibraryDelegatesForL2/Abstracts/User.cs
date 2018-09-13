@@ -1,5 +1,5 @@
-﻿using System;
-using ClassLibraryDelegatesForL2.Entities;
+﻿using ClassLibraryDelegatesForL2.Entities;
+using System;
 
 namespace ClassLibraryDelegatesForL2.Abstracts
 {

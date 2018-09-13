@@ -45,11 +45,18 @@
   <ItemGroup>
     <Compile Include="Entities\Account.cs" />
     <Compile Include="Entities\Course.cs" />
+    <Compile Include="Implementation\CourseServices.cs" />
+    <Compile Include="Interfaces\ICourse.cs" />
+    <Compile Include="Implementation\MaterialServices.cs" />
+    <Compile Include="Implementation\UserServices.cs" />
+    <Compile Include="Interfaces\IMaterial.cs" />
+    <Compile Include="Interfaces\IServices.cs" />
     <Compile Include="Interfaces\ITaskDelegates.cs" />
     <Compile Include="Abstracts\Material.cs" />
     <Compile Include="Entities\Student.cs" />
     <Compile Include="Entities\StudentMaterial.cs" />
     <Compile Include="Implementation\TaskDelegates.cs" />
+    <Compile Include="Interfaces\IUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
