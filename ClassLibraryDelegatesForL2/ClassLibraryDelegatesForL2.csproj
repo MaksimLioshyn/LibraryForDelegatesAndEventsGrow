@@ -46,6 +46,8 @@
     <Compile Include="Entities\Account.cs" />
     <Compile Include="Entities\Course.cs" />
     <Compile Include="Implementation\CourseServices.cs" />
+    <Compile Include="Implementation\StudentMaterialServices.cs" />
+    <Compile Include="Implementation\TeacherMaterialServices.cs" />
     <Compile Include="Interfaces\ICourse.cs" />
     <Compile Include="Implementation\StudentServices.cs" />
     <Compile Include="Implementation\TeacherServices.cs" />

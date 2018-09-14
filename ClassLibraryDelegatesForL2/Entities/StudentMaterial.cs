@@ -7,5 +7,9 @@ namespace ClassLibraryDelegatesForL2.Entities
         public StudentMaterial(string article) : base(article)
         {
         }
+
+        public StudentMaterial() : base(null)
+        {
+        }
     }
 }

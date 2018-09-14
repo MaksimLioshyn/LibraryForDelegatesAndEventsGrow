@@ -10,7 +10,6 @@ namespace ClassLibraryDelegatesForL2.Implementation
     public abstract class StudentServices : IUser
     {
         private List<Student> _students;
-
         public string Article { get; set; }
 
         protected StudentServices(List<Student> students)
