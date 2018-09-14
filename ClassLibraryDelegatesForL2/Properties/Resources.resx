@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="ucoursef-8"?>
+﻿<?xml version="1.0" encoding="uteacherf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -59,51 +59,51 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="roocourse" xmlns="" xmlns:xsd="hcoursecoursep://www.w3.org/2001/XMLSchema" xmlns:msdacoursea="urn:schemas-microsofcourse-com:xml-msdacoursea">
-    <xsd:imporcourse namespace="hcoursecoursep://www.w3.org/XML/1998/namespace" />
-    <xsd:elemencourse name="roocourse" msdacoursea:IsDacourseaSecourse="courserue">
+  <xsd:schema id="rooteacher" xmlns="" xmlns:xsd="hteacherteacherp://www.w3.org/2001/XMLSchema" xmlns:msdateachera="urn:schemas-microsofteacher-com:xml-msdateachera">
+    <xsd:importeacher namespace="hteacherteacherp://www.w3.org/XML/1998/namespace" />
+    <xsd:elementeacher name="rooteacher" msdateachera:IsDateacheraSeteacher="teacherrue">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
-          <xsd:elemencourse name="mecourseadacoursea">
+          <xsd:elementeacher name="meteacheradateachera">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:elemencourse name="value" courseype="xsd:scoursering" minOccurs="0" />
+                <xsd:elementeacher name="value" teacherype="xsd:steacherring" minOccurs="0" />
               </xsd:sequence>
-              <xsd:acoursecourseribucoursee name="name" use="required" courseype="xsd:scoursering" />
-              <xsd:acoursecourseribucoursee name="courseype" courseype="xsd:scoursering" />
-              <xsd:acoursecourseribucoursee name="mimecourseype" courseype="xsd:scoursering" />
-              <xsd:acoursecourseribucoursee ref="xml:space" />
+              <xsd:ateacherteacherributeachere name="name" use="required" teacherype="xsd:steacherring" />
+              <xsd:ateacherteacherributeachere name="teacherype" teacherype="xsd:steacherring" />
+              <xsd:ateacherteacherributeachere name="mimeteacherype" teacherype="xsd:steacherring" />
+              <xsd:ateacherteacherributeachere ref="xml:space" />
             </xsd:complexType>
-          </xsd:elemencourse>
-          <xsd:elemencourse name="assembly">
+          </xsd:elementeacher>
+          <xsd:elementeacher name="assembly">
             <xsd:complexType>
-              <xsd:acoursecourseribucoursee name="alias" courseype="xsd:scoursering" />
-              <xsd:acoursecourseribucoursee name="name" courseype="xsd:scoursering" />
+              <xsd:ateacherteacherributeachere name="alias" teacherype="xsd:steacherring" />
+              <xsd:ateacherteacherributeachere name="name" teacherype="xsd:steacherring" />
             </xsd:complexType>
-          </xsd:elemencourse>
-          <xsd:elemencourse name="dacoursea">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:elemencourse name="value" courseype="xsd:scoursering" minOccurs="0" msdacoursea:Ordinal="1" />
-                <xsd:elemencourse name="commencourse" courseype="xsd:scoursering" minOccurs="0" msdacoursea:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:acoursecourseribucoursee name="name" courseype="xsd:scoursering" use="required" msdacoursea:Ordinal="1" />
-              <xsd:acoursecourseribucoursee name="courseype" courseype="xsd:scoursering" msdacoursea:Ordinal="3" />
-              <xsd:acoursecourseribucoursee name="mimecourseype" courseype="xsd:scoursering" msdacoursea:Ordinal="4" />
-              <xsd:acoursecourseribucoursee ref="xml:space" />
-            </xsd:complexType>
-          </xsd:elemencourse>
-          <xsd:elemencourse name="resheader">
+          </xsd:elementeacher>
+          <xsd:elementeacher name="dateachera">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:elemencourse name="value" courseype="xsd:scoursering" minOccurs="0" msdacoursea:Ordinal="1" />
+                <xsd:elementeacher name="value" teacherype="xsd:steacherring" minOccurs="0" msdateachera:Ordinal="1" />
+                <xsd:elementeacher name="commenteacher" teacherype="xsd:steacherring" minOccurs="0" msdateachera:Ordinal="2" />
               </xsd:sequence>
-              <xsd:acoursecourseribucoursee name="name" courseype="xsd:scoursering" use="required" />
+              <xsd:ateacherteacherributeachere name="name" teacherype="xsd:steacherring" use="required" msdateachera:Ordinal="1" />
+              <xsd:ateacherteacherributeachere name="teacherype" teacherype="xsd:steacherring" msdateachera:Ordinal="3" />
+              <xsd:ateacherteacherributeachere name="mimeteacherype" teacherype="xsd:steacherring" msdateachera:Ordinal="4" />
+              <xsd:ateacherteacherributeachere ref="xml:space" />
             </xsd:complexType>
-          </xsd:elemencourse>
+          </xsd:elementeacher>
+          <xsd:elementeacher name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:elementeacher name="value" teacherype="xsd:steacherring" minOccurs="0" msdateachera:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:ateacherteacherributeachere name="name" teacherype="xsd:steacherring" use="required" />
+            </xsd:complexType>
+          </xsd:elementeacher>
         </xsd:choice>
       </xsd:complexType>
-    </xsd:elemencourse>
+    </xsd:elementeacher>
   </xsd:schema>
   <resheader name="resmimetype">
     <value>text/microsoft-resx</value>
@@ -112,9 +112,9 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culcourseure=neucourseral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culteacherure=neuteacherral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culcourseure=neucourseral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culteacherure=neuteacherral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </roocourse>

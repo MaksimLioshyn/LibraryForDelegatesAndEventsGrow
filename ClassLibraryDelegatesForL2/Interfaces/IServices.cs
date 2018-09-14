@@ -8,7 +8,7 @@ namespace ClassLibraryDelegatesForL2.Interfaces
     {
         void Create();
         bool Delete(Guid id);
-        T Edit(T course);
+        T Edit(T t);
         T FindById(Guid id);
         IEnumerable<T> GetAll();
     }
