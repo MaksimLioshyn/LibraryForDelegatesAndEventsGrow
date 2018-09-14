@@ -1,12 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using ClassLibraryDelegatesForL2.Entities;
 
 namespace ClassLibraryDelegatesForL2.Interfaces
 {
     public interface IServices<T> where T: class 
     {
         void Create();
-        void Delete(Guid id);
-        T Edit(Guid id);
-        T FindMaterialById(Guid id);
+        bool Delete(Guid id);
+        T Edit(T course);
+        T FindById(Guid id);
+        IEnumerable<T> GetAll();
     }
 }

@@ -47,8 +47,8 @@
     <Compile Include="Entities\Course.cs" />
     <Compile Include="Implementation\CourseServices.cs" />
     <Compile Include="Interfaces\ICourse.cs" />
-    <Compile Include="Implementation\MaterialServices.cs" />
-    <Compile Include="Implementation\UserServices.cs" />
+    <Compile Include="Implementation\StudentServices.cs" />
+    <Compile Include="Implementation\TeacherServices.cs" />
     <Compile Include="Interfaces\IMaterial.cs" />
     <Compile Include="Interfaces\IServices.cs" />
     <Compile Include="Interfaces\ITaskDelegates.cs" />

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="ucoursef-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -59,51 +59,51 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
+  <xsd:schema id="roocourse" xmlns="" xmlns:xsd="hcoursecoursep://www.w3.org/2001/XMLSchema" xmlns:msdacoursea="urn:schemas-microsofcourse-com:xml-msdacoursea">
+    <xsd:imporcourse namespace="hcoursecoursep://www.w3.org/XML/1998/namespace" />
+    <xsd:elemencourse name="roocourse" msdacoursea:IsDacourseaSecourse="courserue">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
+          <xsd:elemencourse name="mecourseadacoursea">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:elemencourse name="value" courseype="xsd:scoursering" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:acoursecourseribucoursee name="name" use="required" courseype="xsd:scoursering" />
+              <xsd:acoursecourseribucoursee name="courseype" courseype="xsd:scoursering" />
+              <xsd:acoursecourseribucoursee name="mimecourseype" courseype="xsd:scoursering" />
+              <xsd:acoursecourseribucoursee ref="xml:space" />
             </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
+          </xsd:elemencourse>
+          <xsd:elemencourse name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:acoursecourseribucoursee name="alias" courseype="xsd:scoursering" />
+              <xsd:acoursecourseribucoursee name="name" courseype="xsd:scoursering" />
             </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
+          </xsd:elemencourse>
+          <xsd:elemencourse name="dacoursea">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:elemencourse name="value" courseype="xsd:scoursering" minOccurs="0" msdacoursea:Ordinal="1" />
+                <xsd:elemencourse name="commencourse" courseype="xsd:scoursering" minOccurs="0" msdacoursea:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:acoursecourseribucoursee name="name" courseype="xsd:scoursering" use="required" msdacoursea:Ordinal="1" />
+              <xsd:acoursecourseribucoursee name="courseype" courseype="xsd:scoursering" msdacoursea:Ordinal="3" />
+              <xsd:acoursecourseribucoursee name="mimecourseype" courseype="xsd:scoursering" msdacoursea:Ordinal="4" />
+              <xsd:acoursecourseribucoursee ref="xml:space" />
             </xsd:complexType>
-          </xsd:element>
+          </xsd:elemencourse>
+          <xsd:elemencourse name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:elemencourse name="value" courseype="xsd:scoursering" minOccurs="0" msdacoursea:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:acoursecourseribucoursee name="name" courseype="xsd:scoursering" use="required" />
+            </xsd:complexType>
+          </xsd:elemencourse>
         </xsd:choice>
       </xsd:complexType>
-    </xsd:element>
+    </xsd:elemencourse>
   </xsd:schema>
   <resheader name="resmimetype">
     <value>text/microsoft-resx</value>
@@ -112,9 +112,9 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culcourseure=neucourseral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culcourseure=neucourseral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-</root>
+</roocourse>

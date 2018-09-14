@@ -16,5 +16,9 @@ namespace ClassLibraryDelegatesForL2.Abstracts
             FirstName = firstName;
             LastName = lastName;
         }
+
+        protected User()
+        {
+        }
     }
 }

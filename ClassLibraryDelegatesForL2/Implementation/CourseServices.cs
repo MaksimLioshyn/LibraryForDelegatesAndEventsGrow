@@ -1,29 +1,43 @@
 ﻿using ClassLibraryDelegatesForL2.Entities;
 using ClassLibraryDelegatesForL2.Interfaces;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ClassLibraryDelegatesForL2.Implementation
 {
     public class CourseServices: ICourse
     {
-        public void Create()
+        private List<Course> _courses;
+
+        public CourseServices(List<Course> courses)
         {
-            throw new NotImplementedException();
+            _courses = courses;
         }
 
-        public void Delete(Guid id)
+        public void Create() => _courses.Add(new Course(null));
+        public void Create(string name)=> _courses.Add(new Course(name));
+        
+        public bool Delete(Guid id)
         {
-            throw new NotImplementedException();
+            if (FindById(id) != default(Course))
+            {
+                _courses.Remove(FindById(id));
+                return true;
+            }
+
+            return false;
         }
 
-        public Course Edit(Guid id)
+        public Course Edit(Course course)
         {
-            throw new NotImplementedException();
+            Course editStudent = _courses.FirstOrDefault(u => u.Id == course.Id);
+            _courses.Insert(_courses.FindIndex(u => u.Id == editStudent?.Id), (Course)course);
+            return editStudent;
         }
 
-        public Course FindMaterialById(Guid id)
-        {
-            throw new NotImplementedException();
-        }
+        public Course FindById(Guid id) => _courses.FirstOrDefault(u => u.Id == id);
+
+        public IEnumerable<Course> GetAll() => _courses.Select(u => u);
     }
 }

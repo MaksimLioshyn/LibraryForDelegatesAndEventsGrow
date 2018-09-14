@@ -11,7 +11,7 @@ namespace ClassLibraryDelegatesForL2.Entities
         {
         }
 
-        public Teacher(User user) : base(user.FirstName, user.LastName)
+        public Teacher()
         {
         }
     }

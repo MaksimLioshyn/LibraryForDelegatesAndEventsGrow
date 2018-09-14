@@ -10,7 +10,6 @@ namespace ClassLibraryDelegatesForL2.Entities
         Student
     }
 
-
     public class Course
     {
         public Guid Id { get; } = Guid.NewGuid();

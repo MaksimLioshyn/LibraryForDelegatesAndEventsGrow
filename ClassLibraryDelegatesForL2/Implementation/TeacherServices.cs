@@ -1,17 +1,16 @@
 ﻿using ClassLibraryDelegatesForL2.Abstracts;
+using ClassLibraryDelegatesForL2.Entities;
 using ClassLibraryDelegatesForL2.Interfaces;
 using System;
 
 namespace ClassLibraryDelegatesForL2.Implementation
 {
-    public class UserServices: IUser
+    public class TeacherServices: IUser
     {
-        public void Create()
-        {
-            throw new NotImplementedException();
-        }
+        public User Create() => new Teacher();
+        public User Create(string firstName, string lastName) => new Teacher(firstName, lastName);
 
-        public void Delete(Guid id)
+        public bool Delete(Guid id)
         {
             throw new NotImplementedException();
         }
@@ -21,7 +20,7 @@ namespace ClassLibraryDelegatesForL2.Implementation
             throw new NotImplementedException();
         }
 
-        public User FindMaterialById(Guid id)
+        public User FindById(Guid id)
         {
             throw new NotImplementedException();
         }
